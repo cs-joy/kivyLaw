@@ -1,0 +1,30 @@
+<SoundPlayer>:
+    spacing: "10dp"
+    Button:
+        text: "Play"
+        size: "100dp", "80dp"
+        pos: "50dp", "100dp" 
+        on_press: root.play_button()
+
+    Button:
+        text: "Play1"
+        size: "100dp", "80dp"
+        pos: "150dp", "250dp" 
+        on_press: root.play_button2()
+
+    Button:
+        text: "VolumeD"
+        size: "100dp", "80dp"
+        pos: "300dp", "500dp"
+        on_press: root.volume_button()
+    Button:
+        text: "VolumeI"
+        size: "100dp", "80dp"
+        pos: "300dp", "350dp"
+        on_press: root.volume_increase_button()
+
+    Button:
+        text: "Stop"
+        size: "100dp", "80dp"
+        pos: "300dp", "150dp"
+        on_press: root.stop_button()
